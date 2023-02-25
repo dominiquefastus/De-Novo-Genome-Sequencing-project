@@ -1,0 +1,20 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name               accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#       ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000013_P:113219-114655   -            479 6164at4891           -            392  2.9e-193  639.2   0.4   1   2   3.3e-34   2.2e-31  106.2   0.1    11    87    50   129    37   141 0.90 -
+ctg000013_P:113219-114655   -            479 6164at4891           -            392  2.9e-193  639.2   0.4   2   2  3.3e-163  2.2e-160  530.9   0.0    89   392   160   479   140   479 0.93 -
+ctg000010_P:259780-261222   -            481 6164at4891           -            392   1.3e-37  126.7   1.6   1   2     0.001       0.7    5.8   0.0    21    46    73    98    57   148 0.84 -
+ctg000010_P:259780-261222   -            481 6164at4891           -            392   1.3e-37  126.7   1.6   2   2   6.2e-37   4.1e-34  115.2   1.1    96   385   206   471   194   476 0.88 -
+ctg000003_P:68269-69189     -            307 6164at4891           -            392   3.1e-06   23.4   0.8   1   2   5.1e-08   3.4e-05   20.0   0.0    98   222    59   195    42   201 0.68 -
+ctg000003_P:68269-69189     -            307 6164at4891           -            392   3.1e-06   23.4   0.8   2   2     0.028        18    1.1   0.1   306   321   260   275   227   295 0.60 -
+ctg000001_P:1010117-1013221 -           1035 6164at4891           -            392     0.011   11.8   0.0   1   1   2.5e-05     0.017   11.1   0.0   157   225   256   325   169   341 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/saccharomycetes_odb10/hmms/6164at4891.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/hmmer_output/initial_run_results/6164at4891.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/saccharomycetes_odb10/hmms/6164at4891.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 14:28:45 2023
+# [ok]

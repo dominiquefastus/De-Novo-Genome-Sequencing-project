@@ -1,0 +1,17 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000005_P:572143-572964 -            274 1474000at2759        -            147   1.4e-24   82.2   9.8   1   4   0.00016      0.13    7.7   0.0     7    43    21    66    16    74 0.66 -
+ctg000005_P:572143-572964 -            274 1474000at2759        -            147   1.4e-24   82.2   9.8   2   4     0.045        36   -0.3   0.0    40    60    85   105    78   115 0.87 -
+ctg000005_P:572143-572964 -            274 1474000at2759        -            147   1.4e-24   82.2   9.8   3   4   1.1e-25   8.4e-23   76.4   2.8    48   141   125   236   110   242 0.78 -
+ctg000005_P:572143-572964 -            274 1474000at2759        -            147   1.4e-24   82.2   9.8   4   4      0.11        88   -1.5   0.0     4    27   241   264   238   270 0.70 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/eukaryota_odb10/hmms/1474000at2759.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_eukaryota_odb10/hmmer_output/initial_run_results/1474000at2759.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/eukaryota_odb10/hmms/1474000at2759.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:50:35 2023
+# [ok]

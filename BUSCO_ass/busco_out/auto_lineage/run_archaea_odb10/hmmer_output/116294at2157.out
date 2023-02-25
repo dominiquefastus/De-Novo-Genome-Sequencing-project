@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000007_P_505      -            201 116294at2157         -            102   8.8e-13   47.5  10.7   1   2   4.6e-15   1.3e-11   43.7   3.2     6    81    16   104    10   107 0.82 # 718097 # 718699 # 1 # ID=8_505;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.436
+ctg000007_P_505      -            201 116294at2157         -            102   8.8e-13   47.5  10.7   2   2    0.0038        10    5.5   0.9    85    97   167   179   119   184 0.84 # 718097 # 718699 # 1 # ID=8_505;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.436
+ctg000010_P_132      -            201 116294at2157         -            102   8.8e-13   47.5  10.7   1   2   4.6e-15   1.3e-11   43.7   3.2     6    81    16   104    10   107 0.82 # 214385 # 214987 # -1 # ID=11_132;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.430
+ctg000010_P_132      -            201 116294at2157         -            102   8.8e-13   47.5  10.7   2   2    0.0038        10    5.5   0.9    85    97   167   179   119   184 0.84 # 214385 # 214987 # -1 # ID=11_132;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.430
+ctg000010_P_101      -            262 116294at2157         -            102   9.2e-07   28.1   4.6   1   2       0.3   8.4e+02   -0.6   1.4    27    47    34    54     8   104 0.57 # 163941 # 164726 # 1 # ID=11_101;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.399
+ctg000010_P_101      -            262 116294at2157         -            102   9.2e-07   28.1   4.6   2   2     1e-08   2.9e-05   23.3   0.1    47   102   189   260   139   260 0.71 # 163941 # 164726 # 1 # ID=11_101;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.399
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/116294at2157.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_archaea_odb10/hmmer_output/116294at2157.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/116294at2157.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:38:38 2023
+# [ok]

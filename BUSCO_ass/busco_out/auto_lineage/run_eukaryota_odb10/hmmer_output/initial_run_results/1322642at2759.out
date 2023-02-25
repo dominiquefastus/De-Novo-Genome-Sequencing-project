@@ -1,0 +1,16 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000014_P:133641-134837 -            399 1322642at2759        -            165   4.9e-44  145.7   2.7   1   1   9.3e-45   3.7e-42  139.6   2.7    16   158   138   315   127   319 0.84 -
+ctg000002_P:842869-844008 -            380 1322642at2759        -            165   4.7e-43  142.5   2.6   1   2      0.37   1.5e+02   -2.2   0.0     4    16   114   126   112   129 0.84 -
+ctg000002_P:842869-844008 -            380 1322642at2759        -            165   4.7e-43  142.5   2.6   2   2   4.6e-44   1.8e-41  137.3   1.5    16   160   143   322   136   327 0.84 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/eukaryota_odb10/hmms/1322642at2759.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_eukaryota_odb10/hmmer_output/initial_run_results/1322642at2759.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/eukaryota_odb10/hmms/1322642at2759.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:50:31 2023
+# [ok]

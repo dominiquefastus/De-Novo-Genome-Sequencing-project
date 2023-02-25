@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000006_P_152      -           1064 91936at2157          -            117   1.9e-07   30.1   5.5   1   6      0.33   2.7e+03   -2.6   0.0    21    40   321   340   319   346 0.87 # 231067 # 234258 # 1 # ID=7_152;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+ctg000006_P_152      -           1064 91936at2157          -            117   1.9e-07   30.1   5.5   2   6   4.5e-05      0.37    9.9   0.0    60    97   380   417   363   420 0.87 # 231067 # 234258 # 1 # ID=7_152;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+ctg000006_P_152      -           1064 91936at2157          -            117   1.9e-07   30.1   5.5   3   6   5.4e-06     0.045   12.8   0.1    48   106   520   578   517   584 0.89 # 231067 # 234258 # 1 # ID=7_152;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+ctg000006_P_152      -           1064 91936at2157          -            117   1.9e-07   30.1   5.5   4   6     0.011        95    2.1   0.0    62   107   584   625   579   636 0.72 # 231067 # 234258 # 1 # ID=7_152;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+ctg000006_P_152      -           1064 91936at2157          -            117   1.9e-07   30.1   5.5   5   6     0.088   7.4e+02   -0.8   0.0    15    93   627   706   613   712 0.58 # 231067 # 234258 # 1 # ID=7_152;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+ctg000006_P_152      -           1064 91936at2157          -            117   1.9e-07   30.1   5.5   6   6    0.0053        44    3.2   0.1    61   101   798   838   794   843 0.83 # 231067 # 234258 # 1 # ID=7_152;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/91936at2157.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_archaea_odb10/hmmer_output/91936at2157.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/91936at2157.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:39:28 2023
+# [ok]

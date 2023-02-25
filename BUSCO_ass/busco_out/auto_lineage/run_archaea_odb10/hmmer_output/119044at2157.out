@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000009_P_375      -            640 119044at2157         -            177   9.3e-05   21.0   0.0   1   1   1.6e-07   0.00022   19.7   0.0    43    93   485   536   473   549 0.84 # 556596 # 558515 # 1 # ID=10_375;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.382
+ctg000007_P_356      -            349 119044at2157         -            177    0.0016   17.0   0.0   1   1   2.2e-06     0.003   16.1   0.0    44    86    56    99    43   106 0.77 # 511780 # 512826 # 1 # ID=8_356;partial=00;start_type=ATG;rbs_motif=AAGAA;rbs_spacer=4bp;gc_cont=0.406
+ctg000107_P_161      -            250 119044at2157         -            177    0.0016   17.0   0.0   1   1   2.2e-06     0.003   16.1   0.0    45    93    84   135    70   145 0.84 # 209106 # 209855 # -1 # ID=20_161;partial=00;start_type=ATG;rbs_motif=AAAAAA;rbs_spacer=5bp;gc_cont=0.427
+ctg000011_P_40       -            297 119044at2157         -            177    0.0068   14.9   0.0   1   1   7.8e-06     0.011   14.3   0.0    46    89    43    87    28    99 0.80 # 42744 # 43634 # -1 # ID=12_40;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.367
+ctg000000_P_485      -           1589 119044at2157         -            177    0.0099   14.4   0.0   1   1   1.6e-05     0.022   13.3   0.0    72   138   679   745   655   773 0.82 # 684769 # 689535 # 1 # ID=1_485;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.403
+ctg000002_P_618      -            317 119044at2157         -            177      0.06   11.8   0.0   1   1     9e-05      0.13   10.8   0.0    49    89   129   172   114   180 0.84 # 953348 # 954298 # 1 # ID=3_618;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.409
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/119044at2157.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_archaea_odb10/hmmer_output/119044at2157.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/119044at2157.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:38:39 2023
+# [ok]

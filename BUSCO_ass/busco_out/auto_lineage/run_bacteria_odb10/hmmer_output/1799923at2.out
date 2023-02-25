@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000009_P_81       -            139 1799923at2           -            104   2.9e-16   58.6   1.1   1   1   9.7e-18   2.7e-14   52.3   1.1     1   104     1   138     1   138 0.72 # 137797 # 138213 # 1 # ID=10_81;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.405
+ctg000007_P_523      -            116 1799923at2           -            104     1e-10   40.8   0.0   1   1     5e-14   1.4e-10   40.3   0.0     9    91     2   100     1   113 0.74 # 747052 # 747399 # 1 # ID=8_523;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.468
+ctg000010_P_113      -            116 1799923at2           -            104     1e-10   40.8   0.0   1   1     5e-14   1.4e-10   40.3   0.0     9    91     2   100     1   113 0.74 # 180465 # 180812 # -1 # ID=11_113;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.457
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/bacteria_odb10/hmms/1799923at2.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_bacteria_odb10/hmmer_output/1799923at2.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/bacteria_odb10/hmms/1799923at2.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:40:47 2023
+# [ok]

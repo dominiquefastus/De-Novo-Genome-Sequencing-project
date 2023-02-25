@@ -1,0 +1,137 @@
+# BUSCO version is: 5.4.4 
+# The lineage dataset is: bacteria_odb10 (Creation date: 2020-03-06, number of genomes: 4085, number of BUSCOs: 124)
+# Busco id	Status	Sequence	Gene Start	Gene End	Strand	Score	Length	OrthoDB url	Description
+4421at2	Missing
+9601at2	Fragmented	ctg000002_P	475261	478935	+	239.9	527	https://www.orthodb.org/v10?query=9601at2	DNA-directed RNA polymerase subunit beta
+26038at2	Complete	ctg000001_P	484250	488326	+	236.6	339	https://www.orthodb.org/v10?query=26038at2	phosphoribosylformylglycinamidine synthase
+91428at2	Complete	ctg000002_P	142821	145697	+	431.4	508	https://www.orthodb.org/v10?query=91428at2	alanine--tRNA ligase
+95696at2	Missing
+143460at2	Missing
+182107at2	Missing
+219876at2	Missing
+223233at2	Fragmented	ctg000003_P	579958	581928	+	133.7	307	https://www.orthodb.org/v10?query=223233at2	DNA topoisomerase I
+226836at2	Fragmented	ctg000005_P	585131	587107	-	342.8	384	https://www.orthodb.org/v10?query=226836at2	aspartate--tRNA ligase
+232152at2	Fragmented	ctg000008_P	541844	543133	-	251.2	265	https://www.orthodb.org/v10?query=232152at2	adenylosuccinate synthase
+267682at2	Complete	ctg000006_P	843148	844680	-	229.8	281	https://www.orthodb.org/v10?query=267682at2	amidophosphoribosyltransferase
+353391at2	Duplicated	ctg000000_P	489970	491358	+	238.4	302	https://www.orthodb.org/v10?query=353391at2	serine--tRNA ligase
+353391at2	Duplicated	ctg000011_P	443887	445227	-	222.5	319	https://www.orthodb.org/v10?query=353391at2	serine--tRNA ligase
+384865at2	Missing
+402899at2	Complete	ctg000005_P	576377	577855	-	232.0	269	https://www.orthodb.org/v10?query=402899at2	tyrosine--tRNA ligase
+430176at2	Complete	ctg000022_P	666144	667679	+	562.1	382	https://www.orthodb.org/v10?query=430176at2	ATP synthase subunit beta
+462069at2	Complete	ctg000012_P	204514	205764	-	142.8	194	https://www.orthodb.org/v10?query=462069at2	phosphoglycerate kinase
+469058at2	Complete	ctg000013_P	176941	178452	+	179.5	293	https://www.orthodb.org/v10?query=469058at2	phenylalanine--tRNA ligase subunit alpha
+504464at2	Complete	ctg000006_P	679863	681440	+	263.6	225	https://www.orthodb.org/v10?query=504464at2	GMP synthase 
+505485at2	Missing
+533698at2	Duplicated	ctg000001_P	95125	96438	-	302.0	284	https://www.orthodb.org/v10?query=533698at2	Enolase
+533698at2	Duplicated	ctg000006_P	898018	899331	+	298.3	284	https://www.orthodb.org/v10?query=533698at2	Enolase
+533698at2	Duplicated	ctg000011_P	110414	111727	-	298.3	284	https://www.orthodb.org/v10?query=533698at2	Enolase
+533698at2	Duplicated	ctg000002_P	10341	11654	-	298.1	283	https://www.orthodb.org/v10?query=533698at2	Enolase
+533698at2	Duplicated	ctg000005_P	932005	933318	+	297.9	283	https://www.orthodb.org/v10?query=533698at2	Enolase
+662686at2	Missing
+665824at2	Duplicated	ctg000010_P	245723	247543	-	349.7	505	https://www.orthodb.org/v10?query=665824at2	proline--tRNA ligase
+665824at2	Duplicated	ctg000011_P	420967	423045	-	303.6	348	https://www.orthodb.org/v10?query=665824at2	proline--tRNA ligase
+761140at2	Complete	ctg000001_P	75512	77767	+	110.1	268	https://www.orthodb.org/v10?query=761140at2	methionine--tRNA ligase
+776861at2	Complete	ctg000000_P	684769	689535	+	289.0	424	https://www.orthodb.org/v10?query=776861at2	cytidylate kinase
+837522at2	Complete	ctg000007_P	768532	770169	-	629.6	405	https://www.orthodb.org/v10?query=837522at2	ATP synthase subunit alpha
+841869at2	Missing
+874197at2	Missing
+923547at2	Missing
+932854at2	Complete	ctg000001_P	1059222	1061630	-	543.7	428	https://www.orthodb.org/v10?query=932854at2	phosphoribosylamine--glycine ligase
+932993at2	Missing
+961486at2	Complete	ctg000010_P	517110	518291	+	164.8	161	https://www.orthodb.org/v10?query=961486at2	Ribosomal protein L2
+981870at2	Complete	ctg000001_P	878382	879512	-	271.8	267	https://www.orthodb.org/v10?query=981870at2	chorismate synthase
+984717at2	Missing
+1009041at2	Missing
+1024388at2	Duplicated	ctg000000_P	1433660	1434814	-	391.2	305	https://www.orthodb.org/v10?query=1024388at2	methionine adenosyltransferase
+1024388at2	Duplicated	ctg000003_P	485440	486588	+	391.0	304	https://www.orthodb.org/v10?query=1024388at2	methionine adenosyltransferase
+1036075at2	Missing
+1043239at2	Missing
+1049662at2	Duplicated	ctg000003_P	185365	187140	-	400.9	435	https://www.orthodb.org/v10?query=1049662at2	Bifunctional purine biosynthesis protein PurH
+1049662at2	Duplicated	ctg000006_P	485625	487403	-	399.4	435	https://www.orthodb.org/v10?query=1049662at2	Bifunctional purine biosynthesis protein PurH
+1054741at2	Complete	ctg000000_P	393120	394400	-	260.9	326	https://www.orthodb.org/v10?query=1054741at2	tRNA 2-thiouridine(34) synthase MnmA
+1069591at2	Complete	ctg000002_P	252971	254257	-	116.1	185	https://www.orthodb.org/v10?query=1069591at2	tRNA dimethylallyltransferase
+1074831at2	Fragmented	ctg000000_P	613764	615590	-	19.6	97	https://www.orthodb.org/v10?query=1074831at2	DNA repair protein RecN
+1080436at2	Missing
+1093223at2	Missing
+1132353at2	Missing
+1151822at2	Missing
+1166299at2	Complete	ctg000008_P	693510	694721	-	77.0	118	https://www.orthodb.org/v10?query=1166299at2	tRNA pseudouridine synthase B
+1211060at2	Fragmented	ctg000008_P	407488	408948	+	56.7	87	https://www.orthodb.org/v10?query=1211060at2	30S ribosomal protein S4
+1257362at2	Fragmented	ctg000000_P	274095	275318	-	119.7	197	https://www.orthodb.org/v10?query=1257362at2	tRNA N6-adenosine threonylcarbamoyltransferase
+1266295at2	Complete	ctg000000_P	542774	543520	-	284.7	246	https://www.orthodb.org/v10?query=1266295at2	Triosephosphate isomerase
+1270636at2	Complete	ctg000001_P	160482	161291	+	126.5	147	https://www.orthodb.org/v10?query=1270636at2	50S ribosomal protein L3
+1272633at2	Missing
+1346419at2	Fragmented	ctg000009_P	282430	284145	+	73.2	129	https://www.orthodb.org/v10?query=1346419at2	phosphopantothenoylcysteine decarboxylase
+1395197at2	Missing
+1398618at2	Complete	ctg000011_P	169771	170415	+	79.1	142	https://www.orthodb.org/v10?query=1398618at2	50S ribosomal protein L6
+1419877at2	Duplicated	ctg000000_P	412287	413462	+	119.7	246	https://www.orthodb.org/v10?query=1419877at2	glycerol-3-phosphate dehydrogenase
+1419877at2	Duplicated	ctg000002_P	873956	875278	-	110.7	253	https://www.orthodb.org/v10?query=1419877at2	glycerol-3-phosphate dehydrogenase
+1456375at2	Missing
+1470978at2	Missing
+1490892at2	Missing
+1491686at2	Complete	ctg000000_P	897002	897670	+	117.8	128	https://www.orthodb.org/v10?query=1491686at2	adenylate kinase
+1497415at2	Missing
+1502854at2	Complete	ctg000000_P	1346614	1347177	-	216.2	180	https://www.orthodb.org/v10?query=1502854at2	guanylate kinase
+1504821at2	Missing
+1505038at2	Missing
+1540940at2	Missing
+1567535at2	Missing
+1572673at2	Fragmented	ctg000006_P	207796	208485	-	51.5	72	https://www.orthodb.org/v10?query=1572673at2	50S ribosomal protein L4
+1574817at2	Missing
+1590629at2	Missing
+1592033at2	Missing
+1595498at2	Missing
+1623045at2	Missing
+1661836at2	Missing
+1666043at2	Missing
+1671455at2	Fragmented	ctg000000_P	663009	663866	-	47.8	110	https://www.orthodb.org/v10?query=1671455at2	50S ribosomal protein L1
+1674344at2	Missing
+1676462at2	Complete	ctg000011_P	78456	79028	-	70.4	106	https://www.orthodb.org/v10?query=1676462at2	Peptidyl-tRNA hydrolase
+1692188at2	Missing
+1698718at2	Missing
+1701531at2	Complete	ctg000007_P	501246	502181	-	96.8	142	https://www.orthodb.org/v10?query=1701531at2	ATP synthase gamma chain
+1702697at2	Fragmented	ctg000008_P	484876	485352	+	66.7	102	https://www.orthodb.org/v10?query=1702697at2	50S ribosomal protein L11
+1707228at2	Complete	ctg000008_P	82764	83225	+	124.6	105	https://www.orthodb.org/v10?query=1707228at2	30S ribosomal protein S12
+1713391at2	Missing
+1720952at2	Missing
+1758685at2	Missing
+1760144at2	Missing
+1766414at2	Complete	ctg000007_P	283399	284349	-	78.8	97	https://www.orthodb.org/v10?query=1766414at2	30S ribosomal protein S9
+1772647at2	Missing
+1776954at2	Missing
+1786618at2	Missing
+1799923at2	Missing
+1822215at2	Fragmented	ctg000002_P	479442	479933	-	93.0	102	https://www.orthodb.org/v10?query=1822215at2	50S ribosomal protein L13
+1822695at2	Complete	ctg000001_P	730241	730825	-	42.4	79	https://www.orthodb.org/v10?query=1822695at2	50S ribosomal protein L7/L12
+1827295at2	Complete	ctg000003_P	328841	343573	-	40.4	163	https://www.orthodb.org/v10?query=1827295at2	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+1827334at2	Missing
+1830156at2	Missing
+1838961at2	Complete	ctg000022_P	322386	323102	-	66.2	81	https://www.orthodb.org/v10?query=1838961at2	50S ribosomal protein L17
+1842956at2	Missing
+1844275at2	Complete	ctg000022_P	177826	184470	-	137.0	154	https://www.orthodb.org/v10?query=1844275at2	aspartate carbamoyltransferase
+1846503at2	Missing
+1874945at2	Complete	ctg000008_P	673425	674393	+	49.8	67	https://www.orthodb.org/v10?query=1874945at2	50S ribosomal protein L15
+1890943at2	Fragmented	ctg000006_P	726319	727941	-	35.0	61	https://www.orthodb.org/v10?query=1890943at2	ribonuclease III
+1893906at2	Fragmented	ctg000008_P	82259	82534	+	84.0	65	https://www.orthodb.org/v10?query=1893906at2	30S ribosomal protein S19
+1904463at2	Complete	ctg000008_P	155160	156275	+	82.1	67	https://www.orthodb.org/v10?query=1904463at2	50S ribosomal protein L27
+1906715at2	Complete	ctg000002_P	316672	317358	-	34.4	63	https://www.orthodb.org/v10?query=1906715at2	Protein GrpE
+1932144at2	Missing
+1937072at2	Complete	ctg000005_P	413424	413789	+	86.0	67	https://www.orthodb.org/v10?query=1937072at2	30S ribosomal protein S16
+1937493at2	Complete	ctg000000_P	1038692	1039330	-	86.1	175	https://www.orthodb.org/v10?query=1937493at2	ATP synthase subunit delta
+1940575at2	Complete	ctg000010_P	323839	324366	+	38.1	39	https://www.orthodb.org/v10?query=1940575at2	30S ribosomal protein S18
+1949059at2	Missing
+1959318at2	Missing
+1963491at2	Missing
+1971380at2	Missing
+1978865at2	Fragmented	ctg000002_P	1005285	1005644	-	54.7	65	https://www.orthodb.org/v10?query=1978865at2	50S ribosomal protein L23
+1990141at2	Fragmented	ctg000000_P	1126835	1127695	+	62.3	63	https://www.orthodb.org/v10?query=1990141at2	30S ribosomal protein S15
+1990650at2	Missing
+2005443at2	Missing
+2012682at2	Missing
+2035880at2	Missing
+2040741at2	Missing
+2046660at2	Fragmented	ctg000008_P	379174	379521	+	18.7	15	https://www.orthodb.org/v10?query=2046660at2	50S ribosomal protein L35
+2063644at2	Duplicated	ctg000000_P	218504	218806	+	22.5	40	https://www.orthodb.org/v10?query=2063644at2	50S ribosomal protein L29
+2063644at2	Duplicated	ctg000000_P	118660	118974	+	22.4	40	https://www.orthodb.org/v10?query=2063644at2	50S ribosomal protein L29
+2066663at2	Missing
+2075502at2	Missing

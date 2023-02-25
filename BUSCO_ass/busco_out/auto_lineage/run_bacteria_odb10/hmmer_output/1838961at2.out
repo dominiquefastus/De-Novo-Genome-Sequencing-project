@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000022_P_196      -            239 1838961at2           -             83     1e-18   66.2   0.1   1   2   1.8e-14   1.5e-10   40.0   0.3     1    48     7    55     7    68 0.94 # 322386 # 323102 # -1 # ID=17_196;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.487
+ctg000022_P_196      -            239 1838961at2           -             83     1e-18   66.2   0.1   2   2   1.9e-09   1.6e-05   23.9   0.0    49    83    87   127    56   127 0.87 # 322386 # 323102 # -1 # ID=17_196;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.487
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/bacteria_odb10/hmms/1838961at2.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_bacteria_odb10/hmmer_output/1838961at2.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/bacteria_odb10/hmms/1838961at2.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:40:49 2023
+# [ok]

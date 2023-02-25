@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000007_P_59       -            280 124913at2157         -             85   9.1e-08   30.5   0.5   1   2      0.27   2.2e+03   -2.8   0.0    66    81    71    86    61    88 0.75 # 84029 # 84868 # -1 # ID=8_59;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.348
+ctg000007_P_59       -            280 124913at2157         -             85   9.1e-08   30.5   0.5   2   2   4.2e-10   3.5e-06   25.4   0.1    11    83   176   268   171   269 0.86 # 84029 # 84868 # -1 # ID=8_59;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.348
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/124913at2157.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_archaea_odb10/hmmer_output/124913at2157.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/124913at2157.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:38:40 2023
+# [ok]

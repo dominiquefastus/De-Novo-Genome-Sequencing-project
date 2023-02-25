@@ -1,0 +1,25 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000005_P:209562-210422 -            287 22393at4891          -            239  1.1e-155  513.3   0.2   1   1  5.9e-158  1.3e-155  513.1   0.2     3   239    42   285    40   285 0.97 -
+ctg000002_P:460177-460959 -            261 22393at4891          -            239   5.7e-25   85.4   0.2   1   1   3.3e-27   7.3e-25   85.1   0.2    31   227    26   221     6   233 0.86 -
+ctg000022_P:448599-449359 -            215 22393at4891          -            239   1.1e-24   84.5   0.7   1   1   5.8e-27   1.3e-24   84.2   0.7    29   218    14   201     5   211 0.92 -
+ctg000010_P:399563-400147 -            195 22393at4891          -            239   4.8e-13   46.4   0.0   1   1   2.6e-15   5.9e-13   46.1   0.0    38   197     5   167     2   191 0.88 -
+ctg000010_P:228687-229301 -            205 22393at4891          -            239   1.7e-09   34.8   0.0   1   1   9.4e-12   2.1e-09   34.5   0.0    34   218     9   194     5   200 0.90 -
+ctg000001_P:98224-99003   -            260 22393at4891          -            239   2.3e-09   34.3   0.0   1   1   1.5e-11   3.4e-09   33.8   0.0    31   204    31   212    26   249 0.81 -
+ctg000001_P:338056-338826 -            257 22393at4891          -            239     1e-08   32.2   0.1   1   1   5.7e-11   1.3e-08   31.9   0.1    31   205    29   207    23   236 0.84 -
+ctg000006_P:81075-81824   -            250 22393at4891          -            239     1e-05   22.4   0.0   1   1     7e-08   1.6e-05   21.8   0.0    31   191    28   192    20   218 0.85 -
+ctg000007_P:665257-665979 -            241 22393at4891          -            239     1e-05   22.3   0.0   1   1   1.1e-06   0.00025   17.8   0.0    34   219    28   231    25   241 0.82 -
+ctg000006_P:879310-880011 -            234 22393at4891          -            239   1.6e-05   21.7   0.0   1   1   8.6e-08   1.9e-05   21.5   0.0    31   196    29   198    24   228 0.76 -
+ctg000013_P:20833-21630   -            266 22393at4891          -            239   3.1e-05   20.8   0.0   1   1   2.2e-07   4.9e-05   20.2   0.0    28   216    35   235    22   257 0.69 -
+ctg000002_P:836314-837066 -            251 22393at4891          -            239    0.0014   15.4   0.0   1   1   8.3e-06    0.0018   15.0   0.0    31   199    27   203    20   212 0.89 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/saccharomycetes_odb10/hmms/22393at4891.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/hmmer_output/initial_run_results/22393at4891.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/saccharomycetes_odb10/hmms/22393at4891.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 14:23:24 2023
+# [ok]

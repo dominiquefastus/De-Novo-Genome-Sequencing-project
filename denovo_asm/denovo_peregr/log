@@ -1,0 +1,109 @@
+2023-02-23T23:54:21.776Z INFO  [pg_asm] pg_asm peregrine-r 0.4.13 (bioconda release build, macos [x86_64] [rustc 1.58.1 (db9d1b20b 2022-01-20)])
+2023-02-23T23:54:21.776Z INFO  [pg_asm] command: pg_asm seq.lst asm_out
+2023-02-23T23:54:21.776Z INFO  [pg_asm] current dir: /Users/dominiquefastus/DeNovoProj/denovo_asm/denovo_peregr
+2023-02-23T23:54:21.776Z INFO  [pg_asm] pg_asm run start
+2023-02-23T23:54:21.776Z INFO  [pg_asm::utils] BGN: pg_asm : (maxRSS, utime, stime): 4583424 0 0
+2023-02-23T23:54:21.776Z INFO  [pg_asm] pg_asm run parameters: w:80, k:56, r:6, tol:0.01 bestn:6
+2023-02-23T23:54:21.776Z INFO  [pg_asm] faster mode: false
+2023-02-23T23:54:21.776Z INFO  [pg_asm] use layout method: 2
+2023-02-23T23:54:21.776Z INFO  [pg_asm] keep intermediate files: false
+2023-02-23T23:54:21.776Z INFO  [pg_asm] number of threads: 8
+2023-02-23T23:54:21.776Z INFO  [pg_asm] number of chunks: 26
+2023-02-23T23:54:21.776Z INFO  [pg_asm] input read file: seq.lst
+2023-02-23T23:54:21.776Z INFO  [pg_asm] working directory: asm_out
+2023-02-23T23:54:21.776Z INFO  [pg_asm] sys: number of physical CPU cores detected: 8
+2023-02-23T23:54:21.857Z INFO  [pg_asm] sys: total memory: 8589934 KB
+2023-02-23T23:54:21.857Z INFO  [pg_asm] sys: used memory: 8264658 KB
+2023-02-23T23:54:21.857Z INFO  [pg_asm] sys: total swap: 2147483 KB
+2023-02-23T23:54:21.857Z INFO  [pg_asm] sys: used swap: 855900 KB
+2023-02-23T23:54:21.857Z INFO  [pg_asm::utils] BGN: get_ovlp, input_reads: seq.lst : (maxRSS, utime, stime): 8196096 0 0
+2023-02-23T23:54:21.857Z INFO  [pg_asm::utils] BGN: bulding sequence database : (maxRSS, utime, stime): 8196096 0 0
+2023-02-23T23:54:21.857Z INFO  [pg_asm::utils::build_sdb] create seq db: asm_out/reads.seqdb
+2023-02-23T23:54:21.857Z INFO  [pg_asm::utils::build_sdb] create seq index: asm_out/reads.idx
+2023-02-23T23:54:21.857Z INFO  [pg_asm::utils::build_sdb] get input files from: seq.lst
+2023-02-23T23:54:21.857Z INFO  [pg_asm::utils::build_sdb] input file: /Users/dominiquefastus/SRR13577846.fastq.gz
+2023-02-23T23:54:21.857Z INFO  [pg_asm::utils::build_sdb] input file: /Users/dominiquefastus/SRR13577846.fastq.gz detected as gz-compressed file
+2023-02-23T23:54:37.161Z INFO  [pg_asm::utils::build_sdb] total number of reads indexed: 117521
+2023-02-23T23:54:37.162Z INFO  [pg_asm::utils::build_sdb] total number of bases: 1103850768
+2023-02-23T23:54:37.162Z INFO  [pg_asm::utils::build_sdb] average read length: 9392.796
+2023-02-23T23:54:37.162Z INFO  [pg_asm::utils] END: bulding sequence database : (maxRSS, utime, stime): 1369849856 29 5
+2023-02-23T23:54:37.162Z INFO  [pg_asm::utils] BGN: bulding shimmer : (maxRSS, utime, stime): 1369849856 29 5
+2023-02-23T23:54:40.721Z INFO  [pg_asm::utils] END: bulding shimmer : (maxRSS, utime, stime): 1369849856 41 6
+2023-02-23T23:54:40.721Z INFO  [pg_asm::utils] BGN: overlapping : (maxRSS, utime, stime): 1369849856 41 6
+2023-02-23T23:54:40.965Z WARN  [pg_asm] free memory is less than 1.5 x (total number of bases)
+2023-02-23T23:54:40.965Z WARN  [pg_asm] free memory = 30488kb, total bases / 1024 = 1077979
+2023-02-23T23:54:40.966Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-01-of-26.dat
+2023-02-23T23:54:40.966Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-01-of-26.dat size: 108657
+2023-02-23T23:54:40.983Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-02-of-26.dat
+2023-02-23T23:54:40.984Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-02-of-26.dat size: 103695
+2023-02-23T23:54:40.999Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-03-of-26.dat
+2023-02-23T23:54:40.999Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-03-of-26.dat size: 112015
+2023-02-23T23:54:41.012Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-04-of-26.dat
+2023-02-23T23:54:41.012Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-04-of-26.dat size: 103625
+2023-02-23T23:54:41.026Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-05-of-26.dat
+2023-02-23T23:54:41.026Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-05-of-26.dat size: 103225
+2023-02-23T23:54:41.039Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-06-of-26.dat
+2023-02-23T23:54:41.039Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-06-of-26.dat size: 112278
+2023-02-23T23:54:41.057Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-07-of-26.dat
+2023-02-23T23:54:41.057Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-07-of-26.dat size: 104402
+2023-02-23T23:54:41.074Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-08-of-26.dat
+2023-02-23T23:54:41.074Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-08-of-26.dat size: 94639
+2023-02-23T23:54:41.084Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-09-of-26.dat
+2023-02-23T23:54:41.084Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-09-of-26.dat size: 96148
+2023-02-23T23:54:41.095Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-10-of-26.dat
+2023-02-23T23:54:41.096Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-10-of-26.dat size: 92734
+2023-02-23T23:54:41.106Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-11-of-26.dat
+2023-02-23T23:54:41.106Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-11-of-26.dat size: 100689
+2023-02-23T23:54:41.120Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-12-of-26.dat
+2023-02-23T23:54:41.120Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-12-of-26.dat size: 100114
+2023-02-23T23:54:41.133Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-13-of-26.dat
+2023-02-23T23:54:41.133Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-13-of-26.dat size: 104292
+2023-02-23T23:54:41.145Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-14-of-26.dat
+2023-02-23T23:54:41.145Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-14-of-26.dat size: 93878
+2023-02-23T23:54:41.156Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-15-of-26.dat
+2023-02-23T23:54:41.156Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-15-of-26.dat size: 93280
+2023-02-23T23:54:41.166Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-16-of-26.dat
+2023-02-23T23:54:41.166Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-16-of-26.dat size: 96188
+2023-02-23T23:54:41.178Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-17-of-26.dat
+2023-02-23T23:54:41.178Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-17-of-26.dat size: 100516
+2023-02-23T23:54:41.189Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-18-of-26.dat
+2023-02-23T23:54:41.189Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-18-of-26.dat size: 107649
+2023-02-23T23:54:41.201Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-19-of-26.dat
+2023-02-23T23:54:41.201Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-19-of-26.dat size: 95685
+2023-02-23T23:54:41.212Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-20-of-26.dat
+2023-02-23T23:54:41.212Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-20-of-26.dat size: 106905
+2023-02-23T23:54:41.225Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-21-of-26.dat
+2023-02-23T23:54:41.225Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-21-of-26.dat size: 95457
+2023-02-23T23:54:41.246Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-22-of-26.dat
+2023-02-23T23:54:41.247Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-22-of-26.dat size: 100788
+2023-02-23T23:54:41.258Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-23-of-26.dat
+2023-02-23T23:54:41.258Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-23-of-26.dat size: 106981
+2023-02-23T23:54:41.270Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-24-of-26.dat
+2023-02-23T23:54:41.270Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-24-of-26.dat size: 105053
+2023-02-23T23:54:41.282Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-25-of-26.dat
+2023-02-23T23:54:41.282Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-25-of-26.dat size: 108501
+2023-02-23T23:54:41.295Z INFO  [pg_asm::utils::ovlp] open index file: asm_out/reads-shmr-26-of-26.dat
+2023-02-23T23:54:41.296Z INFO  [pg_asm::utils::ovlp] reading index file: asm_out/reads-shmr-26-of-26.dat size: 99141
+2023-02-23T23:54:41.315Z INFO  [pg_asm::utils::ovlp] read_shmmr_index size: 95139
+2023-02-23T23:54:41.315Z INFO  [pg_asm::utils::ovlp] smp_index: 268594
+2023-02-23T23:54:41.320Z INFO  [pg_asm::utils::ovlp] remove 184092 singletons from smp_index
+2023-02-23T23:54:41.341Z INFO  [pg_asm::utils::ovlp] smp_index size updated: 84502
+2023-02-23T23:54:41.341Z INFO  [pg_asm::utils::ovlp] read seq idx: asm_out/reads.seqdb
+2023-02-23T23:54:41.369Z INFO  [pg_asm::utils::ovlp] read seq db: asm_out/reads.seqdb
+2023-02-24T00:02:03.052Z INFO  [pg_asm::utils] END: overlapping : (maxRSS, utime, stime): 1369849856 1441 34
+2023-02-24T00:02:03.053Z INFO  [pg_asm::utils] END: get_ovlp - input_reads: seq.lst : (maxRSS, utime, stime): 1369849856 1441 34
+2023-02-24T00:02:03.070Z INFO  [pg_asm::utils] BGN: ovlp_ec : (maxRSS, utime, stime): 1369849856 1441 34
+2023-02-24T00:02:03.070Z INFO  [pg_asm::utils::ovlp_ec] read seq idx: asm_out/reads.seqdb
+2023-02-24T00:02:03.144Z INFO  [pg_asm::utils::ovlp_ec] read seq db: asm_out/reads.seqdb
+2023-02-24T00:02:03.144Z INFO  [pg_asm::utils::ovlp_ec] prefix: asm_out/reads-ovlp
+2023-02-24T00:02:03.144Z INFO  [pg_asm::utils::ovlp_ec] out_prefix: asm_out/ec_read
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: ParseIntError { kind: Empty }', src/bin/utils/ovlp_ec.rs:68:28
+thread 'main' panicked at 'oops! the child thread panicked: Any { .. }', src/bin/utils/ovlp_ec.rs:403:39

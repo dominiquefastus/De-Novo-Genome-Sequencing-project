@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000001_P_405      -            324 79845at2157          -            145   9.2e-12   44.0   0.1   1   2   1.8e-10   5.1e-07   28.6   0.0     5   141     9   145     6   148 0.80 # 597987 # 598958 # -1 # ID=2_405;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.410
+ctg000001_P_405      -            324 79845at2157          -            145   9.2e-12   44.0   0.1   2   2   1.2e-05     0.033   13.0   0.0     5    76   199   267   196   314 0.83 # 597987 # 598958 # -1 # ID=2_405;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.410
+ctg000001_P_132      -            425 79845at2157          -            145     2e-09   36.4   0.0   1   2   2.7e-12   7.4e-09   34.6   0.0     4    72   104   173   101   193 0.86 # 192618 # 193892 # 1 # ID=2_132;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.422
+ctg000001_P_132      -            425 79845at2157          -            145     2e-09   36.4   0.0   2   2      0.59   1.6e+03   -2.2   0.0   125   140   223   238   200   241 0.60 # 192618 # 193892 # 1 # ID=2_132;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.422
+ctg000001_P_32       -            306 79845at2157          -            145    0.0027   16.5   0.1   1   1   1.7e-06    0.0048   15.7   0.1     7    63   146   203   140   210 0.86 # 50804 # 51721 # 1 # ID=2_32;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.424
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/79845at2157.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/auto_lineage/run_archaea_odb10/hmmer_output/79845at2157.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/archaea_odb10/hmms/79845at2157.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 11:39:21 2023
+# [ok]

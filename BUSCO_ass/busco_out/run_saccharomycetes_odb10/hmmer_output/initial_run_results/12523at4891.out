@@ -1,0 +1,18 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ctg000007_P:122067-123356 -            430 12523at4891          -            285  2.3e-125  414.7   1.2   1   2      0.43   3.8e+02   -2.8   0.0     1    16     6    21     6    39 0.80 -
+ctg000007_P:122067-123356 -            430 12523at4891          -            285  2.3e-125  414.7   1.2   2   2  2.6e-128  2.3e-125  414.7   1.2     9   285   108   424   100   424 0.89 -
+ctg000024_P:240-1529      -            430 12523at4891          -            285  2.3e-125  414.7   1.2   1   2      0.43   3.8e+02   -2.8   0.0     1    16     6    21     6    39 0.80 -
+ctg000024_P:240-1529      -            430 12523at4891          -            285  2.3e-125  414.7   1.2   2   2  2.6e-128  2.3e-125  414.7   1.2     9   285   108   424   100   424 0.89 -
+ctg000007_P:511761-512264 -            168 12523at4891          -            285     0.002   14.6   0.1   1   1   2.2e-06     0.002   14.6   0.1    13   124    16   129     3   168 0.67 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/saccharomycetes_odb10/hmms/12523at4891.hmm
+# Target file:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas
+# Option settings: hmmsearch --domtblout /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/hmmer_output/initial_run_results/12523at4891.out --cpu 1 /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_downloads/lineages/saccharomycetes_odb10/hmms/12523at4891.hmm /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out/run_saccharomycetes_odb10/metaeuk_output/initial_results/asm_ctgs_m.fa.modified.fas 
+# Current dir:     /Users/dominiquefastus/DeNovoProj/BUSCO_ass
+# Date:            Fri Feb 24 13:47:00 2023
+# [ok]

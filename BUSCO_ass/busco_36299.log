@@ -1,0 +1,27 @@
+2023-02-24 11:37:13 DEBUG:busco.run_BUSCO	Command line: /Users/dominiquefastus/opt/anaconda3/bin/busco -m genome -i ../denovo_asm/denovo_peregr/asm_out/asm_ctgs_m.fa -o busco_out --auto-lineage
+2023-02-24 11:37:13 INFO:busco.run_BUSCO	***** Start a BUSCO v5.4.4 analysis, current time: 02/24/2023 11:37:13 *****
+2023-02-24 11:37:13 DEBUG:busco.ConfigManager	Getting config file
+2023-02-24 11:37:13 INFO:busco.ConfigManager	Configuring BUSCO with local environment
+2023-02-24 11:37:13 INFO:busco.BuscoConfig	Mode is genome
+2023-02-24 11:37:13 ERROR:busco.BuscoRunner	A run with the name /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2023-02-24 11:37:13 DEBUG:busco.BuscoRunner	A run with the name /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+Traceback (most recent call last):
+  File "/Users/dominiquefastus/opt/anaconda3/lib/python3.9/site-packages/busco/run_BUSCO.py", line 70, in run
+    self.load_config()
+  File "/Users/dominiquefastus/opt/anaconda3/lib/python3.9/site-packages/busco/run_BUSCO.py", line 62, in load_config
+    self.config_manager.load_busco_config_main()
+  File "/Users/dominiquefastus/opt/anaconda3/lib/python3.9/site-packages/busco/BuscoLogger.py", line 62, in wrapped_func
+    self.retval = func(*args, **kwargs)
+  File "/Users/dominiquefastus/opt/anaconda3/lib/python3.9/site-packages/busco/ConfigManager.py", line 58, in load_busco_config_main
+    self.config_main.validate()
+  File "/Users/dominiquefastus/opt/anaconda3/lib/python3.9/site-packages/busco/BuscoConfig.py", line 526, in validate
+    self._check_no_previous_run()
+  File "/Users/dominiquefastus/opt/anaconda3/lib/python3.9/site-packages/busco/BuscoConfig.py", line 737, in _check_no_previous_run
+    raise BatchFatalError(
+busco.Exceptions.BatchFatalError: A run with the name /Users/dominiquefastus/DeNovoProj/BUSCO_ass/busco_out already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2023-02-24 11:37:13 ERROR:busco.BuscoRunner	BUSCO analysis failed!
+2023-02-24 11:37:13 ERROR:busco.BuscoRunner	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+
